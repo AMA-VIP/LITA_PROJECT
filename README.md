@@ -10,7 +10,12 @@
 The primary source of Data used here is Book 1.csv. This data was gotten from the Incubator Hub (Ladies in Tech African), which I am currently taking a course with.
 
 ## Technologies Used (Tools)
-1. Programing Language: SQL (Structured Query Language)
-2. Data visualization tools: Power BI
-3. Microsoft Excel for data cleaning, analysis and visusalization
-4. Github for Portfolio Building
+- Programing Language: SQL (Structured Query Language) [SQL Server Management Studio (SSMS)](https://docs.microsoft.com/en-us/sql/ssms/download-sql-sever-management-studio-smss)
+- Data visualization tools: Power BI [Power BI Desktop(https://powerbi.microsoft.com/en-us/downloads/)
+- Microsoft Excel  [Download Here](https://WWW.Microsoft.com)
+   1. data cleaning
+   2. analysis
+   3. visusalization
+      
+4. Github
+    1.Portfolio Building.
