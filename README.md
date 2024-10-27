@@ -43,4 +43,9 @@ The data was explored to answer the following question.
    -calculate the percentage of total sales contributed by each region. o identify products with no sales in the last quarter. 
 3. On PowerBI
    -Create a dashboard that visualizes the insights found in Excel and SQL.
-   N/B: The dashboard should include a sales overview, top-performing products, and regional breakdowns. 
+   N/B: The dashboard should include a sales overview, top-performing products, and regional breakdowns.
+
+## Data Analysis 
+Code used to analyse this data 
+1. Excel
+   To get Revenue: Total sales * Product
