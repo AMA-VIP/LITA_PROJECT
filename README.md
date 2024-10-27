@@ -1,2 +1,3 @@
 # LITA_PROJECT
-My Very First Project on LITA.1
+PROJECT TITLE: Sales Performance Analysis for a Retail Store 
+
