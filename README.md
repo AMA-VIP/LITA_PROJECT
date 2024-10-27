@@ -1,4 +1,8 @@
 # LITA_PROJECT
 ## PROJECT TITLE: Sales Performance Analysis for a Retail Store 
-## Project Overview 
-This project aims to generate insight into a sales performannce for a retail store. I seel to gather informed facts from the data and tell compelling stories around our data from the information gathered or gotten.
+## Project Objective
+1. The primary objective of thisproject is to analyse sales performace data for a retail shop. 
+2. To identify trends
+3. Access the effecftiveness of marketing strategies
+4. Provide actionable insights for improvnhg sales and inventory management
+   
