@@ -6,3 +6,5 @@
 3. Access the effecftiveness of marketing strategies
 4. Provide actionable insights for improvnhg sales and inventory management
    
+## Data Sources
+The primary source of Data used here is Book 1.csv. This data was gotten from the Incubator Hub (Ladies in Tech African), which I am currently taking a course with.
