@@ -8,3 +8,9 @@
    
 ## Data Sources
 The primary source of Data used here is Book 1.csv. This data was gotten from the Incubator Hub (Ladies in Tech African), which I am currently taking a course with.
+
+## Technologies Used (Tools)
+1. Programing Language: SQL (Structured Query Language)
+2. Data visualization tools: Power BI
+3. Microsoft Excel for data cleaning, analysis and visusalization
+4. Github for Portfolio Building
