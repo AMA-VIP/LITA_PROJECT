@@ -160,4 +160,6 @@ h. identify products with no sales in the last quarter.
 3. A dashboard was created to visualize the insight found in Excel and in PowerBI
 
    ## Data Visualization
-   
+   ![LITA Capstone Dataset_-27027859 - Excel 11_5_2024 4_06_47 PM](https://github.com/user-attachments/assets/5079e76c-1f36-4258-b0be-e2d87f5ad27a)
+
+   ![POWER BI  PROJECT 1 10_27_2024 7_32_42 PM](https://github.com/user-attachments/assets/af5c6363-b445-44e1-bee3-ff80e43566ce)
