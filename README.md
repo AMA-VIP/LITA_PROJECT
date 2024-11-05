@@ -65,7 +65,7 @@ Code used to analyse this data
    AVERAGEIF(C:C,[@Product],I:I)
    ```
 
-2.  Pivot table was inserted by:
+b.   Pivot table was inserted by:
 
     ```Excel
     - Control A to highlight the entire tabe
@@ -73,3 +73,72 @@ Code used to analyse this data
       Top selling Product Per Region, etc)
    ```
 
+2. SQL
+a. Retrieve the total sales for each product category.
+   ```SQL
+   select product, sum(revenue) as
+   TotalSales
+   from [dbo].[Book1]
+   group by Product
+   ```
+
+b. find the number of sales transactions in each region. 
+   ```SQL
+   select Region, count(OrderID)  as
+   Number_of_Transactions
+   From [dbo].[Book1]
+   group by Region
+   ```
+
+c. find the highest-selling product by total sales value. 
+   ```SQL
+   select product, sum(Revenue) as
+   Total_sales
+   From [dbo].[Book1]
+   Group by product
+   order by Total_sales desc
+   ```
+d. calculate total revenue per product. 
+   ```SQL
+   select Product, sum(Revenue) as
+   Total_Revenue
+   from [dbo].[Book1]
+   group by product
+   ```
+e. calculate monthly sales totals for the current year.
+   ```SQL
+   select month(OrderDate) as Month,
+   sum(Revenue) as
+   Monthly_TotalSales
+   from [dbo].[Book1]
+   where Year(OrderDate) =
+   Year(GETDATE()) -- Filters for the current year
+   group by Month(OrderDate)
+   order by Month
+   ```
+f. find the top 5 customers by total purchase amount. 
+   ```SQL
+   select top 5 Customer_Id,
+   sum(Revenue) as Total_Purchase_Amount
+   from [dbo].[Book1]
+   group by Customer_Id
+   order by Total_Purchase_Amount desc
+   ```
+ g. calculate the percentage of total sales contributed by each region. o identify products with no sales in the last quarter.
+   ```SQL
+    with Total_Sales as (
+    select sum (Revenue) as
+    Total_Revenue
+    from [dbo].[Book1]
+    )
+   select
+   region,
+   sum(Revenue) as
+   Region_TotalSales,
+   (sum(Revenue) * 100.0 / (select
+   Total_Revenue from Total_Sales)) AS
+   Percentage_of_TotalSales
+   from [dbo].[Book1]
+   Group by Region
+   Order by Percentage_of_TotalSales
+   desc;
