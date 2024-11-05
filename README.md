@@ -1,15 +1,18 @@
 # LITA_PROJECT
 ## PROJECT TITLE: Sales Performance Analysis for a Retail Store 
 ## Project Objective
+---
 1. The primary objective of thisproject is to analyse sales performace data for a retail shop. 
 2. To identify trends
 3. Access the effecftiveness of marketing strategies
 4. Provide actionable insights for improvnhg sales and inventory management
    
 ## Data Sources
+---
 The primary source of Data used here is Book 1.csv. This data was gotten from the Incubator Hub (Ladies in Tech African), which I am currently taking a course with.
 
 ## Technologies Used (Tools)
+---
 - Microsoft Excel  [Download Here](https://WWW.Microsoft.com)
    1. data cleaning
    2. analysis
@@ -20,6 +23,7 @@ The primary source of Data used here is Book 1.csv. This data was gotten from th
     1.Portfolio Building.
 
 ## Data Cleaning and preparation
+---
 1. Data importation
    - The data was importated after downloading an MS excel file 
    - The data was critically assessed, putting missing value and duplicate in vie
@@ -27,6 +31,7 @@ The primary source of Data used here is Book 1.csv. This data was gotten from th
    - The data was changed to csv file, so it can easily be transported or imported to SQL for further analysis as requested on the project
   
 ## Exploratory Data Analysis (EDA)
+---
 The data was explored to answer the following question.
  1. On MS excel
  	-Perform an initial exploration of the sales data.
@@ -45,7 +50,8 @@ The data was explored to answer the following question.
    -Create a dashboard that visualizes the insights found in Excel and SQL.
    N/B: The dashboard should include a sales overview, top-performing products, and regional breakdowns.
 
-## Data Analysis 
+## Data Analysis
+---
 Code used to analyse this data 
 1. Excel
  
@@ -57,10 +63,13 @@ Code used to analyse this data
 
    ```Excel
    AVERAGEIF(C:C,[@Product],I:I)
+   ```
 
 2.  Pivot table was inserted by:
+
     ```Excel
     - Control A to highlight the entire tabe
-    - Click on Insert Tab to create a pivot table
-
+    - Click on Insert Tab to create a pivot table (different analysis was carried out like: Total Sales Per product, Total Sales Per Region, Total Sales Per Year, Product Per Unit Price, 
+      Top selling Product Per Region, etc)
+   ```
 
