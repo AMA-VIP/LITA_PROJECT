@@ -48,4 +48,19 @@ The data was explored to answer the following question.
 ## Data Analysis 
 Code used to analyse this data 
 1. Excel
-   To get Revenue: Total sales * Product
+ 
+  - To get Revenue:
+   ```Excel
+   Total sales * Product
+
+  - To get Average of each product
+
+   ```Excel
+   AVERAGEIF(C:C,[@Product],I:I)
+
+2.  Pivot table was inserted by:
+    ```Excel
+    - Control A to highlight the entire tabe
+    - Click on Insert Tab to create a pivot table
+
+
