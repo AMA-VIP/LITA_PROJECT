@@ -45,8 +45,9 @@ The data was explored to answer the following question.
    -calculate total revenue per product. 
    -calculate monthly sales totals for the current year.
    -find the top 5 customers by total purchase amount. 
-   -calculate the percentage of total sales contributed by each region. o identify products with no sales in the last quarter. 
-3. On PowerBI
+   -calculate the percentage of total sales contributed by each region. 
+   -identify products with no sales in the last quarter. 
+4. On PowerBI
    -Create a dashboard that visualizes the insights found in Excel and SQL.
    N/B: The dashboard should include a sales overview, top-performing products, and regional breakdowns.
 
@@ -142,3 +143,18 @@ f. find the top 5 customers by total purchase amount.
    Group by Region
    Order by Percentage_of_TotalSales
    desc;
+   ```
+
+h. identify products with no sales in the last quarter.
+   ```SQL
+   select product
+   from [dbo].[Book1] 
+   where Product not in (
+   select distinct Product
+   from [dbo].[Book1]
+   where OrderDate >=
+   Dateadd(quarter, -1, getdate())
+   )
+  group by Product;
+  ```
+3. A dashboard was created to visualize the insight found in Excel and in PowerBI
