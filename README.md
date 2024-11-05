@@ -158,3 +158,6 @@ h. identify products with no sales in the last quarter.
   group by Product;
   ```
 3. A dashboard was created to visualize the insight found in Excel and in PowerBI
+
+   ## Data Visualization
+   
