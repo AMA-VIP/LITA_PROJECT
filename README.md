@@ -1,3 +1,4 @@
+[Book1.csv](https://github.com/user-attachments/files/17688630/Book1.csv)
 # LITA_PROJECT
 ## PROJECT TITLE: Sales Performance Analysis for a Retail Store 
 ## Project Objective
@@ -161,5 +162,6 @@ h. identify products with no sales in the last quarter.
 
    ## Data Visualization
    ![LITA Capstone Dataset_-27027859 - Excel 11_5_2024 4_06_47 PM](https://github.com/user-attachments/assets/5079e76c-1f36-4258-b0be-e2d87f5ad27a)
-
+   
+## PROJECT FILE
    ![POWER BI  PROJECT 1 10_27_2024 7_32_42 PM](https://github.com/user-attachments/assets/af5c6363-b445-44e1-bee3-ff80e43566ce)
